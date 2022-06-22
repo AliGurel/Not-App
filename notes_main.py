@@ -144,6 +144,8 @@ def add_tag():
                 json.dump(data,dosya,ensure_ascii=False, indent=4)
     else:
         print("Etiket eklenecek not seçili değil !")
+        
+print("Değişiklik")
 
 # Etiketleri silen fonskiyon
 def del_tag():
